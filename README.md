@@ -61,6 +61,7 @@ Invoke it **during** and **after** a piece of work — to log the judgment calls
 - **`/grilling`** ([`commands/grilling.md`](commands/grilling.md)) is **forked from [Matt Pocock](https://github.com/mattpocock)'s skills repo** — original: [`skills/productivity/grilling/SKILL.md`](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md), used under the **MIT License** (Copyright (c) 2026 Matt Pocock; see [`NOTICE`](NOTICE)). All credit for that skill goes to him; it's included here only as a companion so this repo works out of the box.
 - The **unknowns mental model** and lifecycle framing come from Anthropic's field guide, [*Finding Your Unknowns*](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns).
 - The **before-build handoff** relies on [superpowers](https://github.com/obra/superpowers) by [obra](https://github.com/obra).
+- The `find-unknowns` skill, README, and repo structure were designed and written with **[Claude Code](https://claude.com/claude-code)** (Claude Opus 4.8) — co-author on the commits in this repo.
 
 ## License
 
