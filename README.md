@@ -32,7 +32,7 @@ Every instrument in the skill is just a cheap way to move something out of the b
 **Dependencies / companions:**
 
 - **[superpowers](https://github.com/obra/superpowers)** — the `brainstorming` and `writing-plans` skills own the up-front design and planning. `find-unknowns` invokes `superpowers:brainstorming` for real design work instead of reinventing it.
-- **`/grilling`** — a companion command (included here in [`commands/grilling.md`](commands/grilling.md)) for a pure, relentless plan interview. `find-unknowns` points you to it rather than doing its own interrogation.
+- **`/grilling`** — a companion command (included here in [`commands/grilling.md`](commands/grilling.md)) for a pure, relentless plan interview. `find-unknowns` points you to it rather than doing its own interrogation. **Not my work** — forked from [Matt Pocock's skills repo](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md). See [Credits](#credits).
 
 Together the three reproduce the whole *Finding Your Unknowns* toolkit — distributed across tools that trigger at the right moment, rather than one essay you read once.
 
@@ -55,6 +55,12 @@ For the before-build handoff to work, also install [superpowers](https://github.
 ```
 
 Invoke it **during** and **after** a piece of work — to log the judgment calls you hit while building, explain what really changed (to catch mismatches while they're cheap), and quiz yourself to confirm the intent actually landed. For the up-front design conversation, use `superpowers:brainstorming`; for a pure interview, use `/grilling`.
+
+## Credits
+
+- **`/grilling`** ([`commands/grilling.md`](commands/grilling.md)) is **forked from [Matt Pocock](https://github.com/mattpocock)'s skills repo** — original: [`skills/productivity/grilling/SKILL.md`](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md). All credit for that skill goes to him; it's included here only as a companion so this repo works out of the box.
+- The **unknowns mental model** and lifecycle framing come from Anthropic's field guide, [*Finding Your Unknowns*](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns).
+- The **before-build handoff** relies on [superpowers](https://github.com/obra/superpowers) by [obra](https://github.com/obra).
 
 ## License
 
